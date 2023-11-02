@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ThiGK_63135741ModelStoreContainer" CdmEntityContainer="ThiGK_63135741Entities1">
+    <EntitySetMapping Name="DocGias">
+      <EntityTypeMapping TypeName="ThiGK_63135741Model.DocGia">
+        <MappingFragment StoreEntitySet="DocGia">
+          <ScalarProperty Name="MaDG" ColumnName="MaDG" />
+          <ScalarProperty Name="HoDG" ColumnName="HoDG" />
+          <ScalarProperty Name="TenDG" ColumnName="TenDG" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="AnhDG" ColumnName="AnhDG" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MaLoaiDG" ColumnName="MaLoaiDG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiDocGias">
+      <EntityTypeMapping TypeName="ThiGK_63135741Model.LoaiDocGia">
+        <MappingFragment StoreEntitySet="LoaiDocGia">
+          <ScalarProperty Name="MaLoaiDG" ColumnName="MaLoaiDG" />
+          <ScalarProperty Name="TenLoaiDG" ColumnName="TenLoaiDG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="TimKiem" FunctionName="ThiGK_63135741Model.Store.TimKiem" />
+  </EntityContainerMapping>
+</Mapping>

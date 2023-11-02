@@ -1,0 +1,45 @@
+﻿@model ThiGK_63135741.Models.DocGia
+
+@{
+    ViewBag.Title = "Giới thiệu";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>THÔNG TIN SINH VIÊN</h2>
+<table cellpadding="0" cellspacing="0" style="font-size:15px; margin-left:50px;">
+    <tr>
+        <td>
+            <table cellpadding="2" cellspacing="10">
+                <tr>
+                    <td>Mã số SV:</td>
+                    <td>63135741</td>
+                </tr>
+                <tr>
+                    <td>Họ và tên:</td>
+                    <td>NGUYỄN HUY TOÀN</td>
+                </tr>
+                <tr>
+                    <td>Ngày kiểm tra:</td>
+                    <td>26/10/2023</td>
+                </tr>
+                <tr>
+                    <td>Học phần:</td>
+                    <td>Phát triển ứng dụng web</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+@Html.ActionLink("Về trang tìm kiếm", "TimKiem_63135741")
+
+
+<style>
+    h2 {
+        color: #333;
+    }
+
+    p {
+        color: #555;
+        margin: 10px 0;
+    }
+</style>

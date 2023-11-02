@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/StyleAdmin.css" rel="stylesheet" />
+</head>
+<body style="margin-top:0px;">
+    <div id="banner"><img src=@ViewBag.image /></div>
+    <div id="menu">
+        <div>
+            @Html.ActionLink("Home", "../Home/Index", "", htmlAttributes: new { @class = "a" }) &nbsp;|&nbsp;
+            @Html.ActionLink("Countries", "", "", new { @class = "a" })&nbsp;|&nbsp;
+            @Html.ActionLink("Exporters", "", "", new { @class = "a" }) &nbsp;|&nbsp;
+            @Html.ActionLink("ExportDeliver", "", "", new { @class = "a" })&nbsp;|&nbsp;
+            @Html.ActionLink("ExportRecords", "", "", new { @class = "a" })&nbsp;|&nbsp;
+        </div>
+    </div>
+    <div id="content">
+        @RenderBody()
+    </div>
+    <div id="footer">
+        Copyright &copy; @DateTime.Now.Year
+    </div>
+</body>
+</html>

@@ -1,0 +1,158 @@
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Bai3_63135741.dll.config
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Bai3_63135741.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Bai3_63135741.pdb
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csc.exe
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csc.exe.config
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csc.rsp
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csi.exe
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csi.exe.config
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csi.rsp
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.Managed.Core.targets
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.AppContext.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Collections.Immutable.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Console.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Globalization.Calendars.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.Compression.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.FileSystem.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Net.Http.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Net.Sockets.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Reflection.Metadata.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.ValueTuple.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.XmlDocument.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.XPath.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\vbc.exe
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\vbc.exe.config
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\vbc.rsp
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\VBCSCompiler.exe
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\VBCSCompiler.exe.config
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Antlr3.Runtime.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Microsoft.Web.Infrastructure.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Newtonsoft.Json.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Helpers.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Mvc.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Optimization.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Razor.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Deployment.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Razor.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\WebGrease.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Helpers.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Mvc.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Optimization.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Razor.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Deployment.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Razor.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Newtonsoft.Json.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Antlr3.Runtime.pdb
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.csproj.AssemblyReference.cache
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.csproj.CoreCompileInputs.cache
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.csproj.CopyComplete
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.dll
+E:\UDWeb\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.pdb
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Bai3_63135741.dll.config
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Bai3_63135741.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Bai3_63135741.pdb
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csc.exe
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csc.exe.config
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csc.rsp
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csi.exe
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csi.exe.config
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\csi.rsp
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.AppContext.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Collections.Immutable.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Console.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Globalization.Calendars.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.Compression.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.FileSystem.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Net.Http.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Net.Sockets.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.ValueTuple.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.XPath.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\vbc.exe
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\vbc.exe.config
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\vbc.rsp
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\VBCSCompiler.exe
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\roslyn\VBCSCompiler.exe.config
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Antlr3.Runtime.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Microsoft.Web.Infrastructure.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Newtonsoft.Json.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Helpers.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Mvc.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Optimization.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Razor.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Deployment.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Razor.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\WebGrease.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Helpers.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Mvc.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Optimization.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.Razor.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Deployment.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\System.Web.WebPages.Razor.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Newtonsoft.Json.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Antlr3.Runtime.pdb
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.csproj.AssemblyReference.cache
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.csproj.CoreCompileInputs.cache
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.csproj.CopyComplete
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.dll
+E:\Web Applications\TH_T01\Bai3_63135741\Bai3_63135741\obj\Debug\Bai3_63135741.pdb

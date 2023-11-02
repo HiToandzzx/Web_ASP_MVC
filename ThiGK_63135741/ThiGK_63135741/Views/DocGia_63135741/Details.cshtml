@@ -1,0 +1,75 @@
+﻿@model ThiGK_63135741.Models.DocGia
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DocGia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HoDG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoDG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenDG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnhDG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnhDG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiDocGia.TenLoaiDG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiDocGia.TenLoaiDG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaDG }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

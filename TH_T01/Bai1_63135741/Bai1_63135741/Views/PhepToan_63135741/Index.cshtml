@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Phép toán";
+    Layout = null;
+    <link rel="stylesheet" type="text/css" href="~/Content/Styles.css">
+}
+<form name="f1" method="post">
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <h4>THỰC HIỆN PHÉP TOÁN CƠ BẢN SU DUNG MODEL</h4>
+            </div>
+            <div class="input">
+                <label for="a">Nhap a:</label>
+                <input type="text" name="a"><br><br>
+                <label for="b">Nhap b:</label>
+                <input type="text" name="b"><br><br>
+            </div>
+
+            <div class="operation">
+                <input type="radio" checked name="pt" value="+" />Cộng &nbsp;
+                <input type="radio" name="pt" value="-" />Trừ &nbsp;
+                <input type="radio" name="pt" value="*" />Nhân&nbsp;
+                <input type="radio" name="pt" value="/" />Chia&nbsp;
+                <input type="submit" value="Tính toán" />
+            </div>
+
+            <div class="result">
+                <label for="kq">Ket qua:</label>
+                <input type="text" name="kq" value=@ViewBag.KQ />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+

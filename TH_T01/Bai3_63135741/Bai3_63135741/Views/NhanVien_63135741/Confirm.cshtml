@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Confirm";
+    Layout = null;
+}
+
+    <div class="container">
+        <div class="header">
+            <h2>THONG TIN THANH VIEN DA DANG KY</h2>
+        </div>
+
+        <div class="content">
+            <div class="left_content">
+                <img id="avt" src="@ViewBag.Avatar" />
+            </div>
+
+            <div class="right_content">
+                <p>
+                    Mã số thành viên: @ViewBag.EmpID
+                </p>
+                <p>
+                    Tên: @ViewBag.Name
+                </p>
+                <p>
+                    Ngày sinh: @ViewBag.BirthOfDate
+                </p>
+                <p>
+                    Email: @ViewBag.Email
+                </p>
+                <p>
+                    Mật khẩu: @ViewBag.Password
+                </p>
+                <p>
+                    Bộ phận: @ViewBag.Department
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+<style>
+    .container {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+        padding: 5px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .left_content img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .right_content p {
+        display: flex;
+        text-align: start;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+</style>

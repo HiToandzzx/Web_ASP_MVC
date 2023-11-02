@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Confirm";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    <link rel="stylesheet" type="text/css" href="~/Content/StylesConfirm.css">
+}
+
+<div class="container">
+    <div class="header">
+        <h2>THONG TIN THANH VIEN DA DANG KY</h2>
+    </div>
+
+    <div class="content">
+        <div class="left_content">
+            <img id="avt" src="@ViewBag.Avatar" />
+        </div>
+
+        <div class="right_content">
+            <p>
+                Mã số thành viên: @ViewBag.EmpID
+            </p>
+            <p>
+                Tên: @ViewBag.Name
+            </p>
+            <p>
+                Ngày sinh: @ViewBag.BirthOfDate
+            </p>
+            <p>
+                Email: @ViewBag.Email
+            </p>
+            <p>
+                Mật khẩu: @ViewBag.Password
+            </p>
+            <p>
+                Bộ phận: @ViewBag.Department
+            </p>
+        </div>
+    </div>
+    @Html.ActionLink("Dang ky lai", "DangKy", null, new { @class = "custom-link" })
+</div>
+
+
+
+
+
+
+

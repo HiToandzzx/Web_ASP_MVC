@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThiGK_63135741Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DocGia">
+    <Key>
+      <PropertyRef Name="MaDG" />
+    </Key>
+    <Property Name="MaDG" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HoDG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenDG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="AnhDG" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MaLoaiDG" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="LoaiDocGia" Relationship="Self.FK__DocGia__MaLoaiDG__3A81B327" FromRole="DocGia" ToRole="LoaiDocGia" />
+  </EntityType>
+  <EntityType Name="LoaiDocGia">
+    <Key>
+      <PropertyRef Name="MaLoaiDG" />
+    </Key>
+    <Property Name="MaLoaiDG" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenLoaiDG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="DocGias" Relationship="Self.FK__DocGia__MaLoaiDG__3A81B327" FromRole="LoaiDocGia" ToRole="DocGia" />
+  </EntityType>
+  <Association Name="FK__DocGia__MaLoaiDG__3A81B327">
+    <End Role="LoaiDocGia" Type="Self.LoaiDocGia" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DocGia" Type="Self.DocGia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiDocGia">
+        <PropertyRef Name="MaLoaiDG" />
+      </Principal>
+      <Dependent Role="DocGia">
+        <PropertyRef Name="MaLoaiDG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ThiGK_63135741Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DocGias" EntityType="Self.DocGia" />
+    <EntitySet Name="LoaiDocGias" EntityType="Self.LoaiDocGia" />
+    <AssociationSet Name="FK__DocGia__MaLoaiDG__3A81B327" Association="Self.FK__DocGia__MaLoaiDG__3A81B327">
+      <End Role="LoaiDocGia" EntitySet="LoaiDocGias" />
+      <End Role="DocGia" EntitySet="DocGias" />
+    </AssociationSet>
+    <FunctionImport Name="TimKiem">
+      <Parameter Name="MaDG" Mode="In" Type="String" />
+      <Parameter Name="HoTen" Mode="In" Type="String" />
+      <Parameter Name="MaLoaiDG" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

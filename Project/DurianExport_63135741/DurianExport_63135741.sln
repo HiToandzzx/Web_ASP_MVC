@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurianExport_63135741", "DurianExport_63135741\DurianExport_63135741.csproj", "{982DC038-D8A6-4458-A8BD-12CBB366672E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{982DC038-D8A6-4458-A8BD-12CBB366672E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982DC038-D8A6-4458-A8BD-12CBB366672E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982DC038-D8A6-4458-A8BD-12CBB366672E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982DC038-D8A6-4458-A8BD-12CBB366672E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0664C99-C319-4A68-A025-9B4077FF2EC5}
+	EndGlobalSection
+EndGlobal

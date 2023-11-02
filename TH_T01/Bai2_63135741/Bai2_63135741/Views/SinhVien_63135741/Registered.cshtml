@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Registered";
+    Layout = null;
+    <link rel="stylesheet" type="text/css" href="~/Content/IndexStyles.css">
+}
+
+<div class="container">
+    <div class="header">
+        <h2>THONG TIN SINH VIEN DA DANG KY</h2>
+    </div>
+
+    <div class="content">
+        <p><strong>Ma sinh vien:</strong> @ViewBag.Id</p>
+        <p><strong>Ho va ten:</strong> @ViewBag.Name</p>
+        <p><strong>Diem:</strong> @ViewBag.Marks</p>
+        <a href="@Url.Action("Register1", "SinhVien_63135741")"> <input id="btn_submit" type="submit" value="Quay lai" class="btn btn-default" /></a>
+        
+    </div>
+</div>

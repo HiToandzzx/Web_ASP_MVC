@@ -1,0 +1,88 @@
+﻿@model KT0720_NguyenHuyToan_63135741.Models.SinhVien
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    string gtinh = "";
+}
+
+<h4 style="color:red;"> Bạn có chắc chắn xóa thông tin này?</h4>
+<table border="0" cellpadding="0" cellspacing="0" style="font-size:14px;margin-left:50px;">
+    <tr>
+        <td>
+            <table cellpadding="2" cellspacing="10">
+                <tr>
+                    <td rowspan="8"><img src="/Images/@Html.DisplayFor(model => model.AnhSV)" width="200" height="200" /></td>
+                    <td>Mã sinh viên:</td>
+                    <td>@Html.DisplayFor(model => model.MaSV)</td>
+                </tr>
+                <tr>
+                    <td>Họ sinh viên:</td>
+                    <td>@Html.DisplayFor(model => model.HoSV)</td>
+                </tr>
+                <tr>
+                    <td>Tên sinh viên:</td>
+                    <td>@Html.DisplayFor(model => model.TenSV)</td>
+                </tr>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        @{if (Model.GioiTinh == true)
+                            { gtinh = "Nam"; }
+                            else
+                            { gtinh = "Nữ"; }
+                        }
+                        @gtinh
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh:</td>
+                    <td>@Html.DisplayFor(model => model.NgaySinh)</td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</td>
+                    <td>@Html.DisplayFor(model => model.DiaChi)</td>
+                </tr>
+                <tr>
+                    <td>Lớp:</td>
+                    <td>@Html.DisplayFor(model => model.Lop.TenLop)</td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color" style="margin-left:50px;">
+        <input type="submit" value="Xóa" class="btn btn-default" /> |
+        @Html.ActionLink("Quay lại", "Index")
+    </div>
+}
+
+<style>
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .btn-default {
+        background-color: #b0b0b0;
+        color: #000;
+    }
+
+    .btn:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+</style>

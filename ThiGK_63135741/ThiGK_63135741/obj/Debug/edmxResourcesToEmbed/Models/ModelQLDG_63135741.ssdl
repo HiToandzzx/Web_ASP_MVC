@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThiGK_63135741Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DocGia">
+    <Key>
+      <PropertyRef Name="MaDG" />
+    </Key>
+    <Property Name="MaDG" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="HoDG" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenDG" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="GioiTinh" Type="bit" />
+    <Property Name="AnhDG" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaLoaiDG" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoaiDocGia">
+    <Key>
+      <PropertyRef Name="MaLoaiDG" />
+    </Key>
+    <Property Name="MaLoaiDG" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenLoaiDG" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__DocGia__MaLoaiDG__48CFD27E">
+    <End Role="LoaiDocGia" Type="Self.LoaiDocGia" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DocGia" Type="Self.DocGia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiDocGia">
+        <PropertyRef Name="MaLoaiDG" />
+      </Principal>
+      <Dependent Role="DocGia">
+        <PropertyRef Name="MaLoaiDG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="TimKiem" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaDG" Type="nvarchar" Mode="In" />
+    <Parameter Name="HoTen" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaLoaiDG" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ThiGK_63135741ModelStoreContainer">
+    <EntitySet Name="DocGia" EntityType="Self.DocGia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoaiDocGia" EntityType="Self.LoaiDocGia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DocGia__MaLoaiDG__48CFD27E" Association="Self.FK__DocGia__MaLoaiDG__48CFD27E">
+      <End Role="LoaiDocGia" EntitySet="LoaiDocGia" />
+      <End Role="DocGia" EntitySet="DocGia" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

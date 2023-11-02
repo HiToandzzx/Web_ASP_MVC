@@ -1,0 +1,40 @@
+﻿@model Bai6_63135741.Models.PhongBan
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+
+<h2>XOÁ PHÒNG BAN</h2>
+
+<h3>Bạn có chắc muốn xoá phòng ban này?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenPB)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenPB)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaPB)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaPB)
+        </dd>
+    </dl>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
+
+
